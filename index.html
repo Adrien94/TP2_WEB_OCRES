@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset="UTF-8" />
+		<meta
+ 		 name="viewport"
+ 		 content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+		/>
 		<title>Rdio - Luke Chesser</title>
 
 		<link rel="stylesheet" href="css/reset.css"/>
@@ -22,7 +26,16 @@
 						<input type="submit" name="submit" value="Rechercher" class="submit">
 					</form>
 					<div class="user">
-						<a href="#">Luke Chesser</a>
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+							  Dropdown button
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							  <li><a class="dropdown-item" href="#">Action</a></li>
+							  <li><a class="dropdown-item" href="#">Another action</a></li>
+							  <li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						  </div>
 					</div>
 				</div>
 			</header>
@@ -56,17 +69,21 @@
 							<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 						</div>
 					</div>
-					<div class="stats-links">
-						<section class="stats">
-							<span>2 Playlists</span>
-							<span>4 Reviews</span>
-							<span>6 Followers</span>
-							<span>13 Following</span>
-						</section>
-						<div class="links">
-							<div>
-								<a href="#">Collection</a>
-								<a href="#">History</a>
+					<div class="container-fluid">
+						<div class="stats-links">
+							<section class="stats d-inline-block">
+								<div>
+									<span>2 Playlists</span>
+									<span>4 Reviews</span>
+									<span>6 Followers</span>
+									<span>13 Following</span>
+								</div>
+							</section>
+							<div class="links d-inline-block" >
+								<div>
+									<a href="#">Collection</a>
+									<a href="#">History</a>
+								</div>
 							</div>
 						</div>
 					</div>
